@@ -1,0 +1,56 @@
+.App {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.cont{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://t4.ftcdn.net/jpg/05/04/78/25/360_F_504782581_LHwsDbXlrFiiadWC4i15yV2lhbJnB8g0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.contacts {
+  margin: 5%;
+  border: 2px solid grey;
+  width: 40%;
+  height: 70vh;
+  padding: 2%;
+  font-size: 3.5rem;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.con_con {
+  display: flex;
+  /* flex-direction: row-reverse; */
+ }
+
+ .con_con input{
+  position: relative;
+  padding: 2rem;
+  outline: none;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  left: 2%;
+  background: transparent;
+  font-size: 1rem;
+ }
+ .con_con button{
+  padding: 2%;
+  font-size: 2rem;
+ }
+ .con_con img{
+   margin:13%;
+   float: right;
+ }
